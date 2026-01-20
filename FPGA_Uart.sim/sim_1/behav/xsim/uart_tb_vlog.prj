@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "H:/2025.1/Vivado/data/rsb/busdef" \
+"../../../../FPGA_Uart.srcs/sources_1/new/baud_gen.v" \
+"../../../../FPGA_Uart.srcs/sources_1/new/uart_rx.v" \
+"../../../../FPGA_Uart.srcs/sources_1/new/uart_top.v" \
+"../../../../FPGA_Uart.srcs/sources_1/new/uart_tx.v" \
+"../../../../FPGA_Uart.srcs/sim_1/new/uart_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

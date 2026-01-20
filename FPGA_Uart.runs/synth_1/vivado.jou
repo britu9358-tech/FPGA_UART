@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Jan 19 00:26:20 2026
+# Process ID         : 32772
+# Current directory  : C:/Users/dell/FPGA_Uart/FPGA_Uart.runs/synth_1
+# Command line       : vivado.exe -log baud_gen.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source baud_gen.tcl
+# Log file           : C:/Users/dell/FPGA_Uart/FPGA_Uart.runs/synth_1/baud_gen.vds
+# Journal file       : C:/Users/dell/FPGA_Uart/FPGA_Uart.runs/synth_1\vivado.jou
+# Running On         : RituBansal
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+# CPU Frequency      : 1800 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 4046 MB
+# Swap memory        : 11274 MB
+# Total Virtual      : 15321 MB
+# Available Virtual  : 3869 MB
+#-----------------------------------------------------------
+source baud_gen.tcl -notrace

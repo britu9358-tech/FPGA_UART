@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+TEST PASSED: Received = 55
+$stop called at time : 1202710 ns : File "C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sim_1/new/uart_tb.v" Line 79

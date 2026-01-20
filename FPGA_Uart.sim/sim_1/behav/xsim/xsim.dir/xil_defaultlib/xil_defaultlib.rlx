@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/Users/dell/FPGA_Uart/FPGA_Uart.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sim_1/new/uart_tb.v,1768764633,verilog,,,,uart_tb,,,H:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sources_1/new/baud_gen.v,1768762559,verilog,,C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sources_1/new/uart_rx.v,,baud_gen,,,H:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sources_1/new/uart_rx.v,1768844292,verilog,,C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sources_1/new/uart_top.v,,uart_rx,,,H:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sources_1/new/uart_top.v,1768763724,verilog,,C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sources_1/new/uart_tx.v,,uart_top,,,H:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sources_1/new/uart_tx.v,1768763221,verilog,,C:/Users/dell/FPGA_Uart/FPGA_Uart.srcs/sim_1/new/uart_tb.v,,uart_tx,,,H:/2025.1/Vivado/data/rsb/busdef,,,,,
