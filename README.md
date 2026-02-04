@@ -54,7 +54,7 @@ The system consists of the following modules:
 
 ---
 ## Architecture Diagram
-![UART Architecture]
+![FPGA UART Architecture Diagram](https://github.com/britu9358-tech/FPGA_UART/blob/main/FPGA%20UART%20Architecture%20Diagram.png)
 
 ---
 
