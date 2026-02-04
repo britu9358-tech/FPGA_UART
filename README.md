@@ -58,23 +58,6 @@ The system consists of the following modules:
 
 ---
 
-## Verification & Simulation
-- Verified using **RTL simulation in Vivado**
-- Testbench applies known data patterns (e.g., `0x55`)
-- TX output is looped back to RX input
-- Correct reception is verified through waveform analysis and `rx_valid` signaling
-- Simulation runtime extended to milliseconds to observe UART behavior
-
----
-
-## Testbench (`uart_tb.v`)
-- Generates 50 MHz system clock
-- Applies reset and initiates UART transmission
-- Sends known data (`0x55`)
-- Allows observation of TX/RX behavior and timing
-
----
-
 ## Tools & Technologies
 - Verilog HDL
 - Xilinx Vivado
