@@ -53,31 +53,8 @@ The system consists of the following modules:
    - Implements internal loopback (TX → RX) for simulation verification
 
 ---
-
-## Module Description
-
-### 1. Baud Rate Generator (`baud_gen.v`)
-- Converts high-frequency system clock (50 MHz) into UART timing signals
-- Generates:
-  - `tx_tick` → one pulse per UART bit
-  - `rx_tick` → 16 pulses per UART bit for oversampling
-
-### 2. UART Transmitter (`uart_tx.v`)
-- FSM-based serial transmitter
-- Sends start bit, data bits (LSB first), and stop bit
-- Uses shift register and bit counter
-- Transmission advances only on `tx_tick`
-
-### 3. UART Receiver (`uart_rx.v`)
-- FSM-based serial receiver
-- Detects start bit and confirms it using mid-bit sampling
-- Samples data bits using 16× oversampling
-- Outputs received byte and asserts `rx_valid`
-
-### 4. Top Module (`uart_top.v`)
-- Instantiates all UART submodules
-- Distributes baud timing
-- Enables end-to-end UART verification using loopback
+## Architecture Diagram
+![UART Architecture]
 
 ---
 
